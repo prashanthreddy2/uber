@@ -9,7 +9,7 @@ function App() {
       <Routes>  
         <Route path="/" element={<Home />} />
         <Route path="/Search" element={<Search />} /> 
-        <Route path="/Confirm/:pickup" element={<Confirm/>}/>
+        <Route path="/Confirm/:to/:from" element={<Confirm/>}/>
       </Routes>
     </div>
   );

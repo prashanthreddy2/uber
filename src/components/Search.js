@@ -37,7 +37,7 @@ function Search() {
 
             {/* link to confirm page */}
 
-            <Link to="/Confirm">
+            <Link to={`/Confirm/${pickup}/  ${dropoff}`}  style={{ textDecoration: 'none' }}>
                 <Confirm>Confirm Location</Confirm>
             </Link>
         </Wrapper>
